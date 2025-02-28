@@ -1,0 +1,91 @@
+h1{
+	color: black;
+	text-align: center;
+	font-size: 50px
+    }
+	p{
+	font-size: 20px;
+    widht: 100px;
+	height: 50px;
+	background-color: transparent;
+	border-width: 10px;
+	border-style: none;
+	border-color: transparent;
+	padding: 10px;
+	margin: 70px;
+    }
+    .linha1rodape{
+	font-family: Arial;
+	text-align: center;
+	font-size: 12px;
+    }
+    .rodape{
+	font-family: Arial;
+	text-align: center;
+	font-size: 12px;
+	margin-top: -100px;
+    }
+	body {
+		background-image: url("fundo.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100%;
+		background-attachment: fixed;
+		background-color: #A0A0A0;
+	}
+
+	.slider{
+		max-width: 700px;
+		widht: 260px;
+		height: 260px;
+		background-color: white;
+		border: groove;
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		padding: 20px;
+		margin: 10px;
+		box-shadow: inset;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	.slider .left-slide, .slider .right-slide{
+	  position: absolute;
+	  height: 40px;
+	  width: 40px;
+	  background-color: #444444;
+	  border-radius: 50%;
+	  color:#ffffff;
+	  font-size: 20px;
+	  top:50%;
+	  cursor: pointer;
+	  margin-top: -20px;
+	  text-align: center;
+	  line-height: 40px;
+	  
+	}
+	
+	.slider .left-slide{
+		left: 30px;
+	}
+	.slider .right-slide{
+		right: 30px;
+	}
+	.slider .slider-items .item img{
+		max-width: 100%;
+		display: block;
+	}
+	
+	.slider .slider-items .item{
+		display: none;
+		position: relative;
+	}
+	
+	.slider .slider-items .item.active{
+		display: block;
+	}
+	
+	.item{
+
+	}
